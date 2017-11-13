@@ -1,0 +1,36 @@
+body{
+    margin-left: 20px;
+}
+
+#one,#two{
+    border-radius: 4px;
+}
+button {
+    background-color: rgba(52,58,64,1);
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0);
+    color: rgba(255,255,255,1);
+    font-size: 1rem;
+    font-weight: 400;
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -webkit-transition-duration: 0.15s;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+button:hover {
+    background-color: rgba(35,39,43,1);
+    border-color: rgba(29,33,36,1);
+}
+
+button:focus {
+    box-shadow: rgba(52,58,64,0.5) 0px 0px  0px 3px;
+    outline-width: 0px;
+}
+
